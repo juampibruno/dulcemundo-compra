@@ -172,6 +172,12 @@ header {
     margin-top: 70px;
   } 
 
+  em, b, strong {
+    letter-spacing: 0px !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+
 
 
   /*  ----------------------------MEDIA QUERYS -------------------------------------------------*/
@@ -220,10 +226,6 @@ header {
   }
 
   @media (max-width: 400px) {
-
-    em, b, strong {
-      letter-spacing: 0px; /* O un valor específico como 0px */
-  }
 
      main {
       margin: 0 30px
