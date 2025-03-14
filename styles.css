@@ -12,7 +12,6 @@
     background-color: var(--negro);
     color: var(--blanco);
     font-family: "Apple Color Emoji", sans-serif;
-    letter-spacing: normal;
   }
 
   
@@ -221,6 +220,11 @@ header {
   }
 
   @media (max-width: 400px) {
+
+    em, b, strong {
+      letter-spacing: normal; /* O un valor específico como 0px */
+  }
+
      main {
       margin: 0 30px
      }
