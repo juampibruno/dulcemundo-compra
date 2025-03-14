@@ -222,7 +222,7 @@ header {
   @media (max-width: 400px) {
 
     em, b, strong {
-      letter-spacing: normal; /* O un valor específico como 0px */
+      letter-spacing: 0px; /* O un valor específico como 0px */
   }
 
      main {
