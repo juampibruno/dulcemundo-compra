@@ -12,6 +12,7 @@
     background-color: var(--negro);
     color: var(--blanco);
     font-family: "Apple Color Emoji", sans-serif;
+    letter-spacing: normal;
   }
 
   
@@ -172,10 +173,7 @@ header {
     margin-top: 70px;
   } 
 
-  .img-centrada {
-    justify-content: center;
-    margin-top: 80px;
-  }
+
 
   /*  ----------------------------MEDIA QUERYS -------------------------------------------------*/
 
@@ -244,4 +242,9 @@ header {
     .small {
       font-size: 15px ;
     }
+  }
+
+  .img-centrada {
+    justify-content: center;
+    margin-top: 80px;
   }
