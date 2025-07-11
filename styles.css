@@ -117,6 +117,7 @@ header {
   }
 
   ol {
+    list-style: decimal inside; /* Numera dentro del bloque */
     margin: 0 40px;
     line-height: 150%;
     font-size: 20px;
